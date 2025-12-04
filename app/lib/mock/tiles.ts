@@ -31,18 +31,19 @@ export const TILES: TileEntity[] = [
   },
   {
     style: {
-      backgroundColor: 'green',
-    },
-    width: 3,
-		height: 3,
-  },
-  {
-    style: {
 		  backgroundColor: 'red',
     },
     width: 1,
 		height: 1,
   },
+  {
+    style: {
+      backgroundColor: 'green',
+    },
+    width: 3,
+		height: 3,
+  },
+
   {
     style: {
 		  backgroundColor: 'red',

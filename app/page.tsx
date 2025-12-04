@@ -4,7 +4,7 @@ import { TilesLayout } from "./ui/tiles-layout";
 export default function Home() {
   return (
     <div style={{
-			width: '100vw',
+			width: '100%',
 			maxWidth: '100vw',
 			minHeight: '100vh',
     }}>
@@ -16,6 +16,10 @@ export default function Home() {
         tiles={TILES}
 				showControls={true}
       />
+
+      <div className="grid-cols-4">
+      
+      </div>
     </div>
   );
 }

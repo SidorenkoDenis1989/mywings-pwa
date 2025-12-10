@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "xcopy \"public\" \".next/standalone/public\" /E /I /Y && xcopy \".next/static\" \".next/standalone/.next/static\" /E /I /Y",
     "start": "next start",
     "lint": "eslint"
   },

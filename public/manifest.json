@@ -7,14 +7,28 @@
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/icons/mywings-logo.png",
+      "src": "/icons/mywings-logo-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/mywings-logo.png",
+      "src": "/icons/mywings-logo-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot.png",
+      "sizes": "1642x740",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/screenshot.png",
+      "sizes": "1642x740",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ]
 }

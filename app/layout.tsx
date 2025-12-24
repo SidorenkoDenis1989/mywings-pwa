@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { SWRegister } from "./sw-register";
+import { PushNotificationManager } from "@ui/push-notification-manager";
+import { PushNotificationInstallPrompt } from "@ui/push-notification-install-prompt";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -30,6 +33,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <SWRegister />
+        <PushNotificationManager />
+        <PushNotificationInstallPrompt />
         {children}
       </body>
     </html>

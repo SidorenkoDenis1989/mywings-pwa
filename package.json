@@ -6,19 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "xcopy \"public\" \".next/standalone/public\" /E /I /Y && xcopy \".next/static\" \".next/standalone/.next/static\" /E /I /Y && xcopy \"iis\" \".next/standalone\" /E /I /Y",
-    "start": "next start",
+    "start": "node .next/standalone/server.js",
     "lint": "eslint"
   },
   "dependencies": {
     "next": "16.0.6",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/web-push": "^3.6.4",
     "autoprefixer": "^10.4.22",
     "eslint": "^9",
     "eslint-config-next": "16.0.6",

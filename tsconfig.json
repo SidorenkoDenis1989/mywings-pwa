@@ -20,10 +20,13 @@
     ],
     "paths": {
       "@/*": [ "./*" ],
+      "@pages/*": [ "./app/pages/*" ],
       "@ui/*": [ "./app/ui/*" ],
       "@mock/*": [ "./app/lib/mock/*" ],
       "@service/*": [ "./app/lib/service/*" ],
-      "@entity/*": [ "./app/lib/entity/*" ]
+      "@entity/*": [ "./app/lib/entity/*" ],
+      "@utils/*": [ "./app/lib/utils/*" ],
+      "@actions/*": [ "./app/lib/actions/*" ]
     }
   },
   "include": [
